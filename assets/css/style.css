@@ -1,0 +1,132 @@
+#navigation {
+	list-style-type: none;
+    background-color: white;
+    width: 100%;
+    font-family: Times;
+    border-bottom-width: 2px;
+    border-color: lightgrey;
+    border-style: solid;
+}
+#nav {
+	float: right;
+	display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color: #777777;
+    text-decoration: none;
+    margin-right: 10px;
+}
+div.Title {
+	float: left;
+	margin-left: 200px;
+	margin-top:;
+	background-color: #4aaaa5;
+	padding: 20px;
+	color: white;
+	font-family: 'Georgia' 
+}
+head {
+	clear: both;
+	height: 200px;
+}
+div.page{
+	width: 960px;
+	margin: 0 auto;
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+body{
+	background: url("../images/backgroundimage.jpg") black;
+	display: flex;
+	flex-direction: column;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+h1{
+	color: #4aaaa5;
+	font-size: large;
+}
+h2{
+	color: #4aaaa5;
+	font-size: large;
+}
+div.content{
+	background-color: white;
+	float: left;
+	width: 650px;
+	height: 500px;
+	margin-bottom: 30px;
+	flex: 1 0 auto;
+	font-family: 'Georgia';
+	padding: 0px;
+	color: #777777;
+}
+div.info{
+	padding: 20px;
+}
+img.profile{
+	float: left;
+	padding: 10px;
+	width: 400px;
+
+}
+div.social{
+	background-color: white;
+	float: right;
+	width: 270px;
+	height: 200px;
+	padding: 0px;
+	}
+hr.hr{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+}
+img.social{
+	padding: 16px;
+}
+footer {
+ 	background-color: #666666;
+    height: 50px;  /* footer height */
+    padding-top: 10px;
+    margin-top: 20px; /* space between content and footer */
+    width: 100%;
+    clear: both;
+    font-family: 'Georgia';
+    text-align: center;
+    color: white;
+    font-size: x-small;
+    border-top-width: 5px;
+    border-color: #4aaaa5;
+    border-style: solid;
+
+}
+div.push{
+	height: 319px;
+}
+form.lable{
+	padding: 10px;
+}
+input[type=text],select,textarea {
+	width: 100%;
+	padding: 12px;
+	box-sizing: border-box;
+	resize: vertical;
+	font-family: 'Georgia';
+	text-align: left;
+}
+input[type=submit]{
+	background-color: #4aaaa5 ;
+	color:black;
+	cursor: pointer;
+	font-family: 'Georgia';
+	display: block;
+	font-size: 16px;
+	border-radius: 8px;
+}
