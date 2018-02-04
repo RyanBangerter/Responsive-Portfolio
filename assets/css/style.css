@@ -130,18 +130,17 @@ input[type=submit]{
 	font-size: 16px;
 	border-radius: 8px;
 }
-@media screen {
-div.page {
-	max-width: 980px;
+@media only screen and (max-width: 980px) {
+div.page{
+	width: 100%;
+}
+@media only screen and (max-width: 780px) {
+div.page{
+	width: 100%;
 }
 }
-@media screen {
-div.page {
-	max-width: 780px;
-}
-}
-@media screen {
-div.page {
-	max-width: 640px;
-}
+@media only screen and (max-width: 640px) {
+div.page{
+	width: 100%;
+} 
 }
