@@ -89,7 +89,7 @@ h2{
 	padding: 20px;
 }
 img.social{
-	padding: 16px;
+	padding-left: 27px;
 }
 footer {
  	background-color: #666666;
@@ -130,17 +130,51 @@ input[type=submit]{
 	font-size: 16px;
 	border-radius: 8px;
 }
-@media only screen and (max-width: 980px) {
+@media screen and (max-width: 980px){
 div.page{
 	width: 100%;
 }
-@media only screen and (max-width: 780px) {
-div.page{
+.content{
 	width: 100%;
 }
 }
-@media only screen and (max-width: 640px) {
-div.page{
-	width: 100%;
-} 
+
+@media screen and (max-width: 786px){
+.content{
+	width: 100%!important;
 }
+.social{
+	width: 100%!important;
+}
+.social{
+	margin-top: 40px;
+}
+img.social{
+	height: 50px!important;
+	width: 50px!important;
+	padding-left: 120px!important;
+}
+div.Title{
+	margin-left: 1px!important;
+}
+}
+@media screen and (max-width: 640px){
+.content{
+	width: 100%!important;
+}
+.social{
+	width: 100%!important;
+}	
+.social{
+	margin-top: 40px;
+}
+img.social{
+	height: 50px!important;
+	width: 50px!important;
+	margin-left: 100px!important;
+}
+div.Title{
+	margin-left: 1px!important;
+}
+}
+
